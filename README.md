@@ -35,7 +35,7 @@ cp .env.example .env
 If you want to add furigana to the text to correct transcriptions, you need to set `YAHOO_APP_ID`.
 But it is currently not used and commented out in the codej
 
-## 5. Run the application
+# Usage
 ```sh
 poetry run python src/main.py
 ```
