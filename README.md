@@ -45,3 +45,5 @@ or
 ```sh
 make run
 ```
+
+Transcription will be displayed in the terminal and saved in `src/log/` directory.
