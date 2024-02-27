@@ -13,6 +13,9 @@ from vad_utils import VadWrapper
 
 
 def write_into_file(text: str, file_path: str) -> None:
+    directory = os.path.dirname(file_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
     with open(file_path, "a") as f:
         f.write("\n" + text)
 
